@@ -61,6 +61,5 @@ CREATE TABLE Transactions
     FOREIGN KEY (AccId)  REFERENCES Bank_accounts (Id), 	
 	ContragentId INT NOT NULL,
 	FOREIGN KEY (ContragentId) REFERENCES Contragents (Id),
-	Summa FLOAT
-	
+	Summa FLOAT	
 );
