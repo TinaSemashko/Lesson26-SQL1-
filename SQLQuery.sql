@@ -63,3 +63,4 @@ CREATE TABLE Transactions
 	FOREIGN KEY (ContragentId) REFERENCES Contragents (Id),
 	Summa FLOAT	
 );
+//checked
